@@ -36,7 +36,7 @@ function Backgroundcolor() {
       <Drawer>
         <Container BGcolor={mudaCor}>
           <p>Trocar cor de Background</p>
-          <Button onClick={trocacor} />
+          <Button onClick={trocacor} titulo="trocar Cor" />
         </Container>
       </Drawer>
     </>
