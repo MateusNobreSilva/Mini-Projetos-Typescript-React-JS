@@ -128,6 +128,7 @@ export default function PersistentDrawerLeft({ children }: any) {
           {[
             { id: 1, nome: 'Home', link: '/' },
             { id: 2, nome: 'Trocar cor de Background', link: '/BackgroundColor' },
+            { id: 4, nome: 'Contador', link: '/Contador' },
           ].map(el => (
             <ListItem key={el.id} disablePadding>
               <ListItemButton>
