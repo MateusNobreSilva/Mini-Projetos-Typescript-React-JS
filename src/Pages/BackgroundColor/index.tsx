@@ -4,7 +4,7 @@ import Drawer from '../../Components/Drawer';
 import Button from '../../Components/Button';
 import { Container } from './styled';
 
-function Home() {
+function Backgroundcolor() {
   const [mudaCor, setMudaCor] = useState('');
 
   useEffect(() => {
@@ -43,4 +43,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Backgroundcolor;
