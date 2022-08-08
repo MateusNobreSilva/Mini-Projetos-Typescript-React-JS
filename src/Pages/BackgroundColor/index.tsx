@@ -12,7 +12,7 @@ function Backgroundcolor() {
     setMudaCor('#FFFF00');
   }, []);
 
-  const gg = () => {
+  const trocacor = () => {
     const vetorCores = [
       '#2F4F4F',
       '#FFD700',
@@ -36,7 +36,7 @@ function Backgroundcolor() {
       <Drawer>
         <Container BGcolor={mudaCor}>
           <p>Trocar cor de Background</p>
-          <Button onClick={gg} />
+          <Button onClick={trocacor} />
         </Container>
       </Drawer>
     </>
