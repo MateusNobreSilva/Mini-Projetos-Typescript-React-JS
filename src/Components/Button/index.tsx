@@ -6,11 +6,11 @@ import Stack from '@mui/material/Stack';
 //   onClick: React.HtmlHTMLAttributes(void);
 // }
 
-export default function ContainedButtons({ onClick }: any) {
+export default function ContainedButtons({ onClick, titulo }: any) {
   return (
     <Stack direction="row" spacing={2}>
       <Button variant="contained" onClick={onClick}>
-        Contained
+        {titulo}
       </Button>
     </Stack>
   );
